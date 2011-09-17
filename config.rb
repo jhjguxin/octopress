@@ -1,7 +1,7 @@
 require './octopress/octopress.rb'
 
-root             = Octopress::config[:root] || "/"
-source           = Octopress::config[:source]
+root             = Octopress::config['root'] || "/"
+source           = Octopress::config['source']
 
 # Require any additional compass plugins here.
 project_type     = :stand_alone
